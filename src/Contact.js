@@ -25,7 +25,7 @@ const formSubmit = (e) => {
     e.preventDefault();  
     
     alert(
-        'My name is ${data.fullname}. My mobile number is ${data.phone}. and email is ${data.email}. Here is what I want to say ${data.msg}'
+        `My name is ${data.fullname}. My mobile number is ${data.phone}. and email is ${data.email}. Here is what I want to say ${data.msg}`
     );
 
 };
