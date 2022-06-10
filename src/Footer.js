@@ -4,7 +4,7 @@ const Footer = () => {
         <>
         <footer className="w-80 bg-light  text-center">
         
-        <p>© 2020 Farjana Khan  All  rights are reserved
+        <p>© 2022 Farjana Khan  All  rights are reserved
         </p>
         </footer>
         
