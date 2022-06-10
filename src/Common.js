@@ -19,7 +19,7 @@ const Common = (props) => {
       </h4>
       
        <h5 className="my-1">
-    I am talented developer making website
+    I am talented developer making Websites and Projects
       </h5> 
     <div className="mt-4">
     <NavLink to={props.visit}

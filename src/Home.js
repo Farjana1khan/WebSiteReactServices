@@ -7,7 +7,7 @@ const Home = () => {
         <>
 
    <Common  
-   name="Learn React Js With" 
+   name="React Js Developer" 
    imgsrc={web} 
    visit="/service" 
    btname="Get Started"
