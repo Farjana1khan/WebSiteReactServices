@@ -29,7 +29,7 @@ const Common = (props) => {
     </div>
     </div>
 
-<div className="col-lg-6 order-7 order-lg-9  col-md-6 pt-4 pt-lg-7 mt-4 header-img">
+<div className="col-lg-6 order-7 order-lg-9  col-md-6 pt-4 pt-lg-7  header-img">
 <img src={props.imgsrc} 
 className="img-fluid animated  pt-lg-9 " 
 alt="Common img" />
