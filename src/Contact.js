@@ -1,6 +1,7 @@
 import React ,{useState} from "react";
 
-
+//import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
 const[data, setData] = useState({
@@ -21,12 +22,23 @@ setData((preVal) => {
 });
 };
 
+
 const formSubmit = (e) => {
     e.preventDefault();  
-    
+    //console.log(`My name is ${data.fullname}. My mobile number is ${data.phone}. and email is ${data.email}. Here is what I want to say ${data.msg}`);
     alert(
-        `My name is ${data.fullname}. My mobile number is ${data.phone}. and email is ${data.email}. Here is what I want to say ${data.msg}`
+       "Email send successfully"
     );
+    emailjs.send('service_rakqfwm',  'template_r3olc0m', data,  'gviveBm0s0EQKzcys'
+    )
+    .then((response) => {
+    
+        console.log('SUCCESS!', response.status, response.text);
+    }, (error) => {
+        console.log('FAILED...', error);
+       
+    })
+    ;
 
 };
     return(
